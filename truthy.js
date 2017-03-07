@@ -1,4 +1,4 @@
-function truthyChecker(someValue) {
+const truthyChecker = someValue => {
     if (someValue) {
       console.log("this is truthy!!");
       return true

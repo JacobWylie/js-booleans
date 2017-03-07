@@ -1,7 +1,7 @@
-var imUndefined,
+const imUndefined,
     imNull = null;
 
-function defaultParameters(param) {
+const defaultParameters = param => {
   if(param === undefined) {
     param = "someValueWeSet";
   }
