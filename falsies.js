@@ -1,4 +1,4 @@
-const imUndefined,
+let imUndefined,
     imNull = null;
 
 const defaultParameters = param => {
